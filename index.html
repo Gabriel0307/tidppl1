@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My first website</title>
+  <link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+      <!-- Шапка Сайта -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light stycky-top">
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand"><img src="img/logo.png "></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a href="Lakes.html" class="nav-link">Озёра</a>
+          </li>
+          <li class="nav-item">
+            <a href="Mountains.html" class="nav-link">Горы</a>
+          </li>
+          <li class="nav-item">
+            <a href="Waterfalls.html" class="nav-link">Водопады</a>
+          </li>
+          <li class="nav-item">
+            <a href="Avtorizatia.html" class="nav-link">Авторизация</a>
+          </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Слайд изображений -->
+      <div class="carousel slide" data-ride="carousel" id="slides">
+        <ul class="carousel-indicators">
+          <li data-target="#slides" data-slide-to="0" class="active"></li>
+          <li data-target="#slides" data-slide-to="1" ></li>
+          <li data-target="#slides" data-slide-to="2" ></li>
+          <li data-target="#slides" data-slide-to="3" ></li>
+        </ul>
+        <div class ="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/slide1.jpg">
+          </div>
+          <div class="carousel-item ">
+            <img src="img/slide2.jpg">
+          </div>
+          <div class="carousel-item ">
+            <img src="img/slide3.jpg">
+          </div>
+          <div class="carousel-item ">
+            <img src="img/slide4.jpg">
+          </div>
+        </div>
+      </div>
+      <!-- Основной блок сайта -->
+      <div class="container-fluid">
+        <div class="row text-center alert">
+          <div class="col-12">
+            <h1 class="display-4">О нашей планете</h1>
+          </div>
+        <hr>
+        <div class="col-12">
+          <p class="lead">Земля — единственная известная в настоящий момент планета, на которой есть жизнь. Её природные особенности являются предметом многих научных исследований. Она является третьей по счёту от Солнца планетой Солнечной системы и крупнейшей по диаметру, массе и плотности среди планет земной группы. Основные климатические особенности Земли заключаются в наличии двух больших полярных регионов, двух относительно узких умеренных зон и одного широкого экваториально-тропического региона.Количество осадков на планете варьируется в широких пределах в зависимости от местоположения и колеблется от миллиметра до нескольких метров осадков в год. Около 71 % поверхности Земли занимает океан. Остальная часть состоит из континентов и островов, причём бо́льшая часть суши, населённой людьми, находится в северном полушарии.</p>
+        </div>
+        </div>
+      </div>
+      <!-- Секция с изображением -->
+      <div class="container-fluid padding">
+        <div class="row padding">
+          <div class="offset-lg-1 col-lg-4">
+            <h2>История</h2>
+            <p>По мнению учёных, Земля образовалась 4,54 млрд лет назад из межзвёздного газопылевого облака, наряду с Солнцем и другими планетами. Луна сформировалась примерно на 20 млн лет позже в результате столкновения массивного тела с Землёй.Расплавленный наружный слой Земли со временем охлаждался, в результате чего сформировалась твердая оболочка — кора. Выделение газов и вулканическая активность привели к возникновению первичной атмосферы. Конденсация водяного пара (большинство которого образовалось изо льда комет) привела к возникновению океанов и других водных ресурсов. После чего высокоэнергетическая химия привела к возникновению самовоспроизводящейся молекулы около 4 млрд лет назад.
+             </p>
+            <br>
+            <a href="#" class="btn btn-danger">Оставить комментарии</a>
+          </div>
+          <div class="col-lg-7">
+
+        <img src="img/5.jpg" class="img-fluid" style="margin-left:100px" width="650" heigth="200">
+          </div>
+      </div>
+      </div>
+      <!-- Фиксированное изображение -->
+      <figure>
+
+        <div class="fixed-wrap">
+          <div id="fixed">
+
+
+          </div>
+        </div>
+      </figure>
+      <!-- Закрытая секция -->
+      <div class="text-center">
+        <button type="button" id="gifsBtn" class="btn btn-succes " data-toggle="collapse"
+        data-target="#gifs">Открыть блок</button>
+      </div>
+      <div id="gifs" class="collapse">
+        <div class="container-fluid padding">
+          <div class="row text-center">
+            <div class="col-sm-6 col-md-3">
+              <img src="img/gif1.gif" class="gif">
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <img src="img/gif2.gif" class="gif">
+            </div>
+            <div class="col-sm-6 col-md">
+              <img src="img/gif3.gif" class="gif">
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <img src="img/gif4.gif" class="gif" >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Футер-->
+      <footer class="container-fluid">
+        <div class="container">
+          <div class="row padding text-center">
+            <div class="col-12">
+              <h2 style="color:#FFFF00">Наши контакты</h2>
+            </div>
+            <div class="col-12 social padding">
+              <a href "#"><i class="fab fa-facebook"></i></a>
+              <a href "#"><i class="fab fa-vk"></i></a>
+              <a href "#"><i class="fab fa-youtube"></i></a>
+              <a href "#"><i class="fab fa-twitter"></i></a>
+              <a href "#"><i class="fab fa-instagram"></i></a>
+
+            </div>
+          </div>
+        </div>
+      </footer>
+    </body>
+    </html>
